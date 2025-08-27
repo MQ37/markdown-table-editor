@@ -4,6 +4,10 @@
 
 A simple and powerful tool for creating and editing Markdown tables with drag-and-drop functionality.
 
+> **Note:**
+>
+ > This tool was entirely vibe coded for a personal use case as an alternative to using Vim macros for reordering markdown tables.
+
 ## ✨ What You Can Do
 
 - **Create tables from scratch** or paste existing Markdown tables
