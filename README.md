@@ -6,7 +6,7 @@ A simple and powerful tool for creating and editing Markdown tables with drag-an
 
 > **Note:**
 >
- > This tool was entirely vibe coded for a personal use case as an alternative to using Vim macros for reordering markdown tables.
+ > This tool was entirely vibe coded for a personal use case as an alternative to using Vim macros for reordering markdown tables. Vim is an elegant tool, but this is much faster.
 
 ## ✨ What You Can Do
 
