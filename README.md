@@ -1,5 +1,7 @@
 # Markdown Table Editor
 
+**Try it here:** [https://mq37.github.io/markdown-table-editor/](https://mq37.github.io/markdown-table-editor/)
+
 A simple and powerful tool for creating and editing Markdown tables with drag-and-drop functionality.
 
 ## ✨ What You Can Do
