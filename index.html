@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Table Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Markdown Table Editor</h1>
+            <p>Paste your markdown table or create one from scratch</p>
+        </header>
+
+        <div class="editor-container">
+            <div class="input-section">
+                <h3>Markdown Input</h3>
+                <textarea id="markdownInput" placeholder="Paste your markdown table here or create a new one..."></textarea>
+                <div class="controls">
+                    <button id="createTable">Create New Table</button>
+                    <button id="exportMarkdown">Export Markdown</button>
+                </div>
+            </div>
+
+            <div class="table-section">
+                <h3>Table Editor</h3>
+                <div class="mode-controls">
+                    <button id="toggleMode">Selection Mode</button>
+                    <div id="modeIndicator" class="mode-indicator selection">Selection Mode</div>
+                    <div id="selectionStatus" class="selection-status"></div>
+                </div>
+                <div class="table-controls">
+                    <button id="addRow">Add Row</button>
+                    <button id="addColumn">Add Column</button>
+                    <button id="deleteRow">Delete Row</button>
+                    <button id="deleteColumn">Delete Column</button>
+                </div>
+                <div id="tableContainer" class="table-container">
+                    <table id="editableTable">
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
